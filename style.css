@@ -4,3 +4,8 @@ ul{
 div h2{
   font-family: pacifico;
 }
+@font-face {
+  font-family: pacifico;
+  src: url(pacifico-regular-webfont.woff) format("woff");
+  src: url(pacifico-regular-webfont.woff2) format("woff2");
+}
