@@ -88,7 +88,7 @@ h3{
   font-family: algerian;
   font-size: 35px;
   background-image: repeating-linear-gradient(yellow, #c4ad18, #c7bd,#c9ef,#e3ef);
-  border-radius: 20px;
+  border-radius: 5px;
 }
 footer{
   clear: both;
