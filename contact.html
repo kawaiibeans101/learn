@@ -2,12 +2,43 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="style2.css">
     <title>Contact us</title>
   </head>
   <body>
-    <div>
-    <p>LANDING PAGE WORK GOING ON</p>
-    <a href="index.html">GO BACK TO THE PAGE!</a>
+    <div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Send us an email:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="telephone.jpg" style="width:100%">
     </div>
-  </body>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+        <label for="email">Email ID</label>
+        <input type="text" id="lname" name="emailid" placeholder="Your email id...">
+        <label for="idd">I am</label>
+        <select id="idd" name="I am ">
+          <option value="Independent Creator">Independent Creator</option>
+          <option value="Media Page">Media Page</option>
+          <option value="Sponsper">Sponser</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+      <h3>P.S.- Please drop your Instagram ID in your message.<br>  We will follow up on your email and if possible instagram.</h3>
+    </div>
+  </div>
+</div>
+<div style="text-align:right">
+    <a href="index.html">Take me to Home</a></div>
 </html>
