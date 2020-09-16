@@ -50,12 +50,13 @@ ul li.adf a:hover{
   transition: 0.3s ease;
 }
 div h2{
-  text-align: center;
   font-family: bungeeshade;
   font-size: 150%;
   color: yellow;
   margin: 2px;
-  border:12px solid #c4ad18;
+  margin-left: auto;
+  margin-right: auto;
+  border:10px solid #c4ad18;
   padding: 2px;
   width:220px;
 }
@@ -73,8 +74,8 @@ div h2{
 div.title{
   background-image: url(titleback.jpg);
   width: 240px;
-  opacity: 100%;
-  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .ABOUT p{
   padding: 10px;
