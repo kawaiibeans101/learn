@@ -1,7 +1,67 @@
 * {
   box-sizing: border-box;
 }
+@media only screen and (max-width: 600px) {
+  nav{
+    background-color: #c4ad18;
+    background-image: url(download.jpg);
+    width:auto;
+    height: 150px;
+    border:5px solid white;
+    border-radius: 2px ;
+  }
 
+}
+nav{
+  background-color: #c4ad18;
+  background-image: url(download.jpg);
+  width:auto;
+  height: 60px;
+  border:0px solid white;
+  border-radius: 5px ;
+}
+ul li{
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  display:inline-flex;
+  padding: 5px;
+  text-align: center;
+  position:relative;
+}
+ul li a{
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 120%;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  font-family: pacifico;
+  border: 1px transparent ;
+  color: white;
+}
+ul li.adft a:hover{
+  font-size: 30px;
+  font-weight: bolder;
+  border:5px transparent;
+  border-radius: 15px;
+  background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color:purple;
+  padding: 2px 2px;
+  transition: 0.3s ease;
+}
+ul li.adf a:hover{
+  font-size: 30px;
+  font-weight: bolder;
+  border:5px transparent;
+  border-radius: 5px;
+  background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color:purple;
+  padding: 2px 2px;
+  transition: 0.3s ease;
+}
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
@@ -52,4 +112,14 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+}
+@font-face {
+  font-family:Bungeeshade;
+  src: url(Bungeeshade.woff) format("woff");
+  src:url(Bungeeshade.woff2) format("woff2");
+}
+@font-face {
+  font-family: pacifico;
+  src: url(pacifico-regular-webfont.woff) format("woff");
+  src: url(pacifico-regular-webfont.woff2) format("woff2");
 }
