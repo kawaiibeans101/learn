@@ -77,9 +77,9 @@ div h2{
 }
 
 @font-face {
-  font-family:Bungeeshade;
-  src: url(Bungeeshade.woff) format("woff");
-  src:url(Bungeeshade.woff2) format("woff2");
+  font-family: Bungeeshade;
+  src: url(bungeeshade.woff) format("woff");
+  src: url(bungeeshade.woff2) format("woff2");
 }
 @font-face {
   font-family: pacifico;
@@ -117,4 +117,10 @@ footer{
     font-weight: bolder;
     color: purple;
 
+}
+.embd{
+  margin: 300px;
+  border: 300px solid black;
+  box-sizing: border-box;
+  overflow: auto;
 }
