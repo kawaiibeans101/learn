@@ -7,6 +7,7 @@
     background-image: url(download.jpg);
     width:auto;
     height: 150px;
+    margin-bottom: 20px;
     border:5px solid white;
     border-radius: 2px ;
   }
@@ -72,12 +73,13 @@ div h2{
   background: -webkit-linear-gradient(#ff758c , #c4ad18);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 2px;
+  margin: 10px;
   margin-left: auto;
   margin-right: auto;
   border:10px solid #c4ad18;
   padding: 2px;
   width:220px;
+  box-sizing: content-box;
 }
 
 @font-face {
@@ -120,5 +122,11 @@ footer{
     font-style: oblique;
     font-weight: bolder;
     color: purple;
+
+}
+@media (min-width : 1000px) and (max-width: 1400px) {
+  h2{
+    font-size: 200px;
+  }
 
 }
